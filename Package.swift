@@ -29,9 +29,7 @@ let package = Package(
                       "gauss.hxx",],
             sources: ["."],
             publicHeadersPath: "PublicHeaders",
-            swiftSettings: [
-                .unsafeFlags(["-suppress-warnings"]),
-            ]),
+            swiftSettings: []),
         .testTarget(
             name: "ClippingBezierTests",
             dependencies: ["ClippingBezier"],
