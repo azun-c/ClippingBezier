@@ -49,5 +49,7 @@
 #import "DKTangentAtPoint.h"
 #import "DKVector.h"
 #import "MMBackwardCompatible.h"
+#import "DKUIBezierPathIntersectionPoint+Private.h"
+#import "UIBezierPath+Clipping_Private.h"
 #endif
 //#include "bezierclip.hxx"
